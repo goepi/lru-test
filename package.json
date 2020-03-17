@@ -14,7 +14,8 @@
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:publish": "lerna publish",
     "lerna:version": "lerna version",
-    "lerna:clean": "lerna clean"
+    "lerna:clean": "lerna clean",
+    "build": "lerna run build --scope=@project/component-library"
   },
   "dependencies": {
     "prettier": "^1.19.1"
