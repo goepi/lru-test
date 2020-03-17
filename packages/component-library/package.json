@@ -12,10 +12,11 @@
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",
-    "@rollup/plugin-typescript": "^4.0.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "rollup": "^2.0.6"
+    "rollup": "^2.0.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-typescript2": "^0.26.0"
   },
   "peerDependencies": {
     "react": "^16.13.0",
