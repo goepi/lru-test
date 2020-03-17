@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "lerna:add": "lerna add",
+    "lerna:changed": "lerna changed",
+    "lerna:create": "lerna create",
+    "lerna:link": "lerna link",
+    "lerna:run": "lerna run",
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:publish": "lerna publish",
+    "lerna:version": "lerna version",
+    "lerna:clean": "lerna clean"
+  }
+}
