@@ -1,6 +1,7 @@
 # lru-test
 
 `yarn install`
+
 `yarn lerna bootstrap`
 
 though actually we won't be using the symlinks in this example
