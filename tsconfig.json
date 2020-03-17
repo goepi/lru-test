@@ -4,6 +4,11 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
-    "allowJs": true
-  }
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@project/*": ["packages/*/src"]
+    }
+  },
+  "exclude": ["**/build/**"]
 }

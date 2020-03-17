@@ -15,5 +15,8 @@
     "lerna:publish": "lerna publish",
     "lerna:version": "lerna version",
     "lerna:clean": "lerna clean"
+  },
+  "dependencies": {
+    "prettier": "^1.19.1"
   }
 }
