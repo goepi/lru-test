@@ -1,0 +1,184 @@
+rpt2: built-in options overrides: {
+    "noEmitHelpers": false,
+    "importHelpers": true,
+    "noResolve": false,
+    "noEmit": false,
+    "inlineSourceMap": false,
+    "outDir": "/Users/goepi/Projects/snippets/lru-test/packages/component-library/node_modules/.cache/rollup-plugin-typescript2/placeholder",
+    "moduleResolution": 2,
+    "allowNonTsExtensions": true,
+    "module": 5
+}
+rpt2: parsed tsconfig: {
+    "options": {
+        "jsx": 2,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": 2,
+        "allowJs": true,
+        "baseUrl": "/Users/goepi/Projects/snippets/lru-test",
+        "paths": {
+            "@project/*": [
+                "packages/*/src"
+            ]
+        },
+        "configFilePath": "/Users/goepi/Projects/snippets/lru-test/packages/component-library/../../tsconfig.json",
+        "noEmitHelpers": false,
+        "importHelpers": true,
+        "noResolve": false,
+        "noEmit": false,
+        "inlineSourceMap": false,
+        "outDir": "/Users/goepi/Projects/snippets/lru-test/packages/component-library/node_modules/.cache/rollup-plugin-typescript2/placeholder",
+        "allowNonTsExtensions": true,
+        "module": 5
+    },
+    "fileNames": [
+        "/Users/goepi/Projects/snippets/lru-test/prettier.config.js",
+        "/Users/goepi/Projects/snippets/lru-test/applications/test-app/src/App.test.tsx",
+        "/Users/goepi/Projects/snippets/lru-test/applications/test-app/src/App.tsx",
+        "/Users/goepi/Projects/snippets/lru-test/applications/test-app/src/index.tsx",
+        "/Users/goepi/Projects/snippets/lru-test/applications/test-app/src/serviceWorker.ts",
+        "/Users/goepi/Projects/snippets/lru-test/applications/test-app/src/setupTests.ts",
+        "/Users/goepi/Projects/snippets/lru-test/packages/component-library/rollup.config.js",
+        "/Users/goepi/Projects/snippets/lru-test/packages/component-library/src/MyComponent.tsx",
+        "/Users/goepi/Projects/snippets/lru-test/packages/component-library/src/index.tsx",
+        "/Users/goepi/Projects/snippets/lru-test/packages/styles/rollup.config.js",
+        "/Users/goepi/Projects/snippets/lru-test/packages/styles/src/index.js",
+        "/Users/goepi/Projects/snippets/lru-test/packages/utils/rollup.config.js",
+        "/Users/goepi/Projects/snippets/lru-test/packages/utils/src/index.ts"
+    ],
+    "typeAcquisition": {
+        "enable": false,
+        "include": [],
+        "exclude": []
+    },
+    "raw": {
+        "compilerOptions": {
+            "jsx": "react",
+            "esModuleInterop": true,
+            "allowSyntheticDefaultImports": true,
+            "moduleResolution": "node",
+            "allowJs": true,
+            "baseUrl": ".",
+            "paths": {
+                "@project/*": [
+                    "packages/*/src"
+                ]
+            }
+        },
+        "exclude": [
+            "**/build/**"
+        ],
+        "compileOnSave": false
+    },
+    "errors": [],
+    "wildcardDirectories": {
+        "/users/goepi/projects/snippets/lru-test": 1
+    },
+    "compileOnSave": false,
+    "configFileSpecs": {
+        "includeSpecs": [
+            "**/*"
+        ],
+        "excludeSpecs": [
+            "**/build/**"
+        ],
+        "validatedIncludeSpecs": [
+            "**/*"
+        ],
+        "validatedExcludeSpecs": [
+            "**/build/**"
+        ],
+        "wildcardDirectories": {
+            "/users/goepi/projects/snippets/lru-test": 1
+        }
+    }
+}
+rpt2: typescript version: 3.8.3
+rpt2: tslib version: 1.10.0
+rpt2: rollup version: 2.0.6
+rpt2: rollup-plugin-typescript2 version: 0.26.0
+rpt2: plugin options:
+{
+    "tsconfig": "../../tsconfig.json",
+    "verbosity": 3,
+    "check": true,
+    "clean": false,
+    "cacheRoot": "/Users/goepi/Projects/snippets/lru-test/packages/component-library/node_modules/.cache/rollup-plugin-typescript2",
+    "include": [
+        "*.ts+(|x)",
+        "**/*.ts+(|x)"
+    ],
+    "exclude": [
+        "*.d.ts",
+        "**/*.d.ts"
+    ],
+    "abortOnError": true,
+    "rollupCommonJSResolveHack": false,
+    "useTsconfigDeclarationDir": false,
+    "tsconfigOverride": {},
+    "transformers": [],
+    "tsconfigDefaults": {},
+    "objectHashIgnoreUnknownHack": false,
+    "cwd": "/Users/goepi/Projects/snippets/lru-test/packages/component-library",
+    "typescript": "version 3.8.3"
+}
+rpt2: rollup config:
+{
+    "experimentalCacheExpiry": 10,
+    "external": [],
+    "inlineDynamicImports": false,
+    "input": "src/index.tsx",
+    "perf": false,
+    "plugins": [
+        {
+            "name": "commonjs"
+        },
+        {
+            "name": "rpt2"
+        },
+        {
+            "name": "stdin"
+        }
+    ],
+    "strictDeprecations": false
+}
+rpt2: tsconfig path: /Users/goepi/Projects/snippets/lru-test/packages/component-library/../../tsconfig.json
+rpt2: included:
+[
+    "*.ts+(|x)",
+    "**/*.ts+(|x)"
+]
+rpt2: excluded:
+[
+    "*.d.ts",
+    "**/*.d.ts"
+]
+rpt2: Ambient types:
+rpt2:     /Users/goepi/Projects/snippets/lru-test/node_modules/@types/events/index.d.ts
+rpt2:     /Users/goepi/Projects/snippets/lru-test/node_modules/@types/glob/index.d.ts
+rpt2:     /Users/goepi/Projects/snippets/lru-test/node_modules/@types/minimatch/index.d.ts
+rpt2:     /Users/goepi/Projects/snippets/lru-test/node_modules/@types/node/ts3.2/index.d.ts
+rpt2: ambient types changed, redoing all semantic diagnostics
+rpt2: transpiling '/Users/goepi/Projects/snippets/lru-test/packages/component-library/src/index.tsx'
+rpt2:     cache: '/Users/goepi/Projects/snippets/lru-test/packages/component-library/node_modules/.cache/rollup-plugin-typescript2/rpt2_a5374387ed192686a0b838cf50fec73f5b55a241/code/cache/300ab513e25b87d0e92a46c7f61f1c797b8d4749'
+rpt2:     cache miss
+rpt2:     cache: '/Users/goepi/Projects/snippets/lru-test/packages/component-library/node_modules/.cache/rollup-plugin-typescript2/rpt2_a5374387ed192686a0b838cf50fec73f5b55a241/syntacticDiagnostics/cache/300ab513e25b87d0e92a46c7f61f1c797b8d4749'
+rpt2:     cache miss
+rpt2:     cache: '/Users/goepi/Projects/snippets/lru-test/packages/component-library/node_modules/.cache/rollup-plugin-typescript2/rpt2_a5374387ed192686a0b838cf50fec73f5b55a241/semanticDiagnostics/cache/300ab513e25b87d0e92a46c7f61f1c797b8d4749'
+rpt2:     cache miss
+rpt2: dependency '/Users/goepi/Projects/snippets/lru-test/packages/component-library/src/MyComponent.tsx'
+rpt2:     imported by '/Users/goepi/Projects/snippets/lru-test/packages/component-library/src/index.tsx'
+rpt2: resolving './MyComponent' imported by '/Users/goepi/Projects/snippets/lru-test/packages/component-library/src/index.tsx'
+rpt2:     to '/Users/goepi/Projects/snippets/lru-test/packages/component-library/src/MyComponent.tsx'
+rpt2: transpiling '/Users/goepi/Projects/snippets/lru-test/packages/component-library/src/MyComponent.tsx'
+rpt2:     cache: '/Users/goepi/Projects/snippets/lru-test/packages/component-library/node_modules/.cache/rollup-plugin-typescript2/rpt2_a5374387ed192686a0b838cf50fec73f5b55a241/code/cache/c57c71cf282ed7d75d033fb7f64a31860fe5550c'
+rpt2:     cache miss
+rpt2:     cache: '/Users/goepi/Projects/snippets/lru-test/packages/component-library/node_modules/.cache/rollup-plugin-typescript2/rpt2_a5374387ed192686a0b838cf50fec73f5b55a241/syntacticDiagnostics/cache/c57c71cf282ed7d75d033fb7f64a31860fe5550c'
+rpt2:     cache miss
+rpt2:     cache: '/Users/goepi/Projects/snippets/lru-test/packages/component-library/node_modules/.cache/rollup-plugin-typescript2/rpt2_a5374387ed192686a0b838cf50fec73f5b55a241/semanticDiagnostics/cache/c57c71cf282ed7d75d033fb7f64a31860fe5550c'
+rpt2:     cache miss
+rpt2: resolving 'react' imported by '/Users/goepi/Projects/snippets/lru-test/packages/component-library/src/MyComponent.tsx'
+rpt2:     to '/Users/goepi/Projects/snippets/lru-test/packages/component-library/node_modules/react/index.js'
+rpt2: resolving '@project/utils' imported by '/Users/goepi/Projects/snippets/lru-test/packages/component-library/src/MyComponent.tsx'
+rpt2:     to '/Users/goepi/Projects/snippets/lru-test/packages/utils/src/index.ts'
